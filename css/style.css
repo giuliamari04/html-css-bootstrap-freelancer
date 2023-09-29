@@ -1,0 +1,17 @@
+:root{
+    --my-bg-hero:rgb(26, 188, 156);
+    --my-bg-topfooter:rgb(58, 84, 109);
+    --my-bg-botfooter:rgb(44, 62, 80);
+}
+
+.my-bg-verdeacqua{
+    background-color:var(--my-bg-hero) ;
+}
+
+.my-bg-topfooter{
+    background-color: var(--my-bg-topfooter);
+}
+
+.my-bg-botfooter{
+    background-color: var(--my-bg-botfooter);
+}
