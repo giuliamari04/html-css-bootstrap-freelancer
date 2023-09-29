@@ -12,6 +12,10 @@ body{
     background-color:var(--my-bg-hero) ;
 }
 
+.my-text-verdeacqua{
+    color:var(--my-bg-hero) ;
+}
+
 .my-bg-topfooter{
     background-color: var(--my-bg-topfooter);
 }
