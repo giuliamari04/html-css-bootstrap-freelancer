@@ -4,6 +4,10 @@
     --my-bg-botfooter:rgb(44, 62, 80);
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .my-bg-verdeacqua{
     background-color:var(--my-bg-hero) ;
 }
@@ -14,4 +18,16 @@
 
 .my-bg-botfooter{
     background-color: var(--my-bg-botfooter);
+}
+
+.my-fs-0{
+    font-size: 3em;
+}
+
+.high-line{
+    height: 2px;
+}
+
+.debug{
+    border: 2px solid blue;
 }
