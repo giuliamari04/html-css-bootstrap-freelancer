@@ -31,6 +31,44 @@ body{
 .high-line{
     height: 3px;
 }
+.my-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-img:hover .my-overlay {
+    opacity: 1;
+}
+
+.my-plus {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    font-size: 3em;
+    color: var(--color-white);
+    
+
+}
+
+.my-plus:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-img{
+    transition: 1s;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+}
 
 .debug{
     border: 2px solid blue;
